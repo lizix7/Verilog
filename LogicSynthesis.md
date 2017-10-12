@@ -23,5 +23,5 @@ Analyze => Elaborate => Read => Save attribute settings
 
 Create symbol view.
 
-### 6. Set the Drive Strength on Input Ports
+#### 6. Set the Drive Strength on Input Ports
 
