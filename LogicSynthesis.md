@@ -8,7 +8,6 @@ iit018_stdcells.lib
 #### 2. Start design_vision
 ```
 source /softwares/setup/synopsys/setup.ecen454.bash
-source .synopsys_dctcl.setup
 ```
 #### 3. Setup library
 
