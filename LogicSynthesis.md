@@ -14,13 +14,10 @@ source /softwares/setup/synopsys/setup.ecen454.bash
 Open *"File>Setup"*, fill **iit018_stdcells.db** in *"Link Library"* and *"Target Library"*, **generic.sdb** in *"Symbol Library"*.
 
 #### 4. Load design
-  4.1 Analyze design
+
+
+Analyze => Elaborate => Read => Save attribute settings
   
-  4.2 Elaborate design
-  
-  4.3 Read design
-  
-  4.4 Save attribute settings
   
 #### 5. Select Top design
 
