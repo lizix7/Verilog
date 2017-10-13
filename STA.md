@@ -26,5 +26,19 @@ read_verilog verilog_netlist_file
 current_design topmodule
 link_design topmodule
 read_parasitics design.spef // read the parasitic parameters
+create_clock -period t -waveform {0 t/2} {clk} // create clock signal
+check_timing
+```
+#### 5. Report timing
 
+```
+report_timing
+report_timing -max_path 3 > max_path.txt // save the report into a file
+```
+
+#### 6. Report constraints
+
+```
+report_constraint -all_violators -verbose -max_delay
+report_constraint -all_violators -verbose -min_delay
 ```
