@@ -43,3 +43,20 @@ Then ```uniquify```
 #### 10. Compile design
 
 #### 11. Report area and save optimized netlist
+
+#### 12. Set the implementation method
+
+```
+set_implementation cla add*
+set_implementation cla sub*
+set_implementation cla submodule/add*
+set_implementation wall mult*
+set_implementation wall submodule/mult*
+```
+
+```
+report_resource -h
+```
+Check the implementation set.
+
+#### 13. Recompile the design
