@@ -54,9 +54,11 @@ set_implementation wall mult*
 set_implementation wall submodule/mult*
 ```
 
+Check the implementation set.
+
 ```
 report_resource -h
 ```
-Check the implementation set.
+
 
 #### 13. Recompile the design
