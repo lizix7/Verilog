@@ -12,7 +12,7 @@ design_vision
 ```
 #### 3. Setup library
 
-Open *"File>Setup"*, fill **iit018_stdcells.db** in *"Link Library"* and *"Target Library"*, **generic.sdb** in *"Symbol Library"*.
+Open *"File>Setup"*, fill **iit018_stdcells.db** in *"Link Library"* and *"Target Library"*, **generic.sdb** in *"Symbol Library"*, **dw_foundation.sldb** in *"Synthetic Library"*.
 
 #### 4. Load design
 
